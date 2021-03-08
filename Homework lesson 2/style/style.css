@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-weight: 400px;
+}
+
+.container {
+    margin: auto;
+    max-width: 1170px;
+    padding: 0, 15px;
+    display: block;
+}
+
+.title {
+    font-size: 36px;
+    list-style: 42px;
+    font-weight: normal;
+    font-style: normal;
+    color: #212121;
+    margin-bottom: 25px;
+}
