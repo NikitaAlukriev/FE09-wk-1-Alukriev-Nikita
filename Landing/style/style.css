@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-weight: 400;
+    }
+
+    html {
+      font-size: 14px;
+      scroll-behavior: smooth;   
+    }
+
+    input:focus {
+      outline: none;
+    }
+
+    label {
+      display: block;
+      text-align: left;
+    }
+
+    input {
+      display: block;
+    }
+     
+    .container {
+      position: relative;
+        margin: auto;
+        max-width: 1170px;
+        padding: 0 15px;
+        z-index: 1;
+      }
+
+      .section__header {
+        text-align: center;
+        margin-bottom: 65px;
+      }
+
+
+.logo {
+  display: block;
+  font-size: 2.2rem;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.logo::after {
+  content: "IT";
+  color: #EC7979
+} 
+.input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #BDBDBD;
+}
+
+
+
+.download {
+  display: block;
+  font-weight: 600px;
+    color: #FFFFFF;
+    width: 135px; 
+    text-align: center;
+    padding: 0.8em 1.85em;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+    .title {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        font-size: 2.7rem;
+        line-height: 42px;
+        text-transform: uppercase;
+        display: block;
+        margin-bottom: 70px;
+      }
+
+      .title::after {
+        content: "";
+        position: absolute;
+        display: block;
+        margin: 35px auto;
+        right: 0;
+        left: 0;
+        height: 2px;
+        width: 64px;
+        background-color: #D98943;   
+    }
+    
+
+  .undertitle {
+        color: #86878B;
+      }
+
+      textarea {
+        outline: none;
+        resize: none;
+      }

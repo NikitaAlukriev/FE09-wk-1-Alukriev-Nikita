@@ -1,0 +1,64 @@
+.contact{
+    padding: 80px 0 45px;
+    
+}
+
+.contact__header {
+    text-align: center;
+    margin-bottom: 95px;
+}
+
+
+.contact__forms {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 75px;
+    margin: 0 --5px;
+}
+
+.contact__form {    
+    width: 40%;
+    margin: 0 5px;
+}
+
+.message__label {
+    margin-bottom: 25px;
+    
+}
+
+.send-message{
+    border: none;
+    display: block;
+    margin: 0 auto;
+    padding: 11px 32px;
+    color: #FFFFFF;
+    background-color: #EC7979;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.contact__input {
+    margin-bottom: 32px;
+}
+
+.contact__label {
+    margin-bottom: 25px;
+}
+
+.input-area {
+    height: 206px;
+}
+.send-message:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px #000000;
+}
+
+.send-message:active {
+    background-color: #fdabab;
+    transform: scale(1.1);
+}
+
+.send-message:focus {
+    outline: 0;
+}
